@@ -38,14 +38,14 @@
 
 @media screen and (max-width: 480px) {
     .section-main-black {
-        height: 110%;
+        height: 100%;
     }
 }
 
 .black-tittle {
     width: 100%;
     position: absolute;
-    top: -50px;
+    top: -30px;
 }
 
 .black-name {

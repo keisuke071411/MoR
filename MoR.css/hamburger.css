@@ -27,7 +27,7 @@
 .ham_line {
     position: absolute;
     left: 10px;
-    width: 40px;
+    width: 30px;
     height: 3px;
     background-color: #333333;
 }

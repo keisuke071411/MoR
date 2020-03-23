@@ -5,6 +5,12 @@
     z-index: 30;
 }
 
+@media screen and (max-width: 480px) {
+    .section_main-box2 {
+        height: 600px;
+    }
+}
+
 
 /* .section_main-box2::before {
     content: "";
@@ -44,6 +50,13 @@
     width: 100%;
     position: absolute;
     top: 150px;
+}
+
+@media screen and (max-width: 480px) {
+    .section_white-tittle {
+        position: absolute;
+        top: 50px;
+    }
 }
 
 .white-tittle {
