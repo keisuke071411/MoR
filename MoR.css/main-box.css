@@ -1,0 +1,115 @@
+.section_main {
+    width: calc(100% - 250px);
+    height: 100vh;
+    position: relative;
+    float: right;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 480px) {
+    .section_main {
+        width: 100%;
+    }
+}
+
+.section_main-box {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 480px) {
+    .section_main-box {
+        height: 90vh;
+    }
+}
+
+.main_blue-box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.blue {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section_main-blue {
+    width: 100%;
+    position: absolute;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    z-index: 20;
+}
+
+.blue-message {
+    width: 100%;
+    text-align: center;
+    font-size: 145px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'TsukuBRdGothic-Regular';
+}
+
+@media screen and (max-width: 480px) {
+    .blue-message {
+        font-size: 45px;
+    }
+}
+
+.section_main-iphone {
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 0;
+}
+
+.iphone {
+    width: 550px;
+    height: 110vh;
+}
+
+@media screen and (max-width: 480px) {
+    .iphone {
+        width: 350px;
+        height: 100vh;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        z-index: 0;
+    }
+}
+
+.section_main-campaign {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.campaign {
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+@media screen and (max-width: 480px) {
+    .section_main-campaign {
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+    }
+}

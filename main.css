@@ -1,0 +1,16 @@
+@import url("MoR.css/header.css");
+@import url("MoR.css/main-box.css");
+@import url("MoR.css/main-box2.css");
+@import url("MoR.css/main-box3.css");
+@import url("MoR.css/main-box4.css");
+@import url("MoR.css/main-box5.css");
+@import url("MoR.css/hamburger.css");
+html {
+    background: #fff;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
